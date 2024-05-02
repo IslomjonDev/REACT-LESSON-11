@@ -1,0 +1,47 @@
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: #fff;
+}
+.input{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+select{
+    padding: 10px;
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search-content{
+    width: 300px;
+    border-radius: 10px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 5;
+    overflow: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 15px #0002 ;
+}
+.search-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    span{
+        color: black;
+    }
+}
